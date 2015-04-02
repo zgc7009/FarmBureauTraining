@@ -1,0 +1,31 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="android:Theme.Holo.Light">
+		<!-- Customize your theme here. -->
+	</style>
+
+	<style name="CustomButton" parent="android:Widget.Button">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">@dimen/button_height</item>
+		<item name="android:textColor">@color/button_text_color</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+	</style>
+
+	<style name="RescheduleButton" parent="CustomButton">
+		<item name="android:background">@drawable/reschedule_button</item>
+		<item name="android:text">@string/reschedule</item>
+	</style>
+
+	<style name="CancelButton" parent="CustomButton">
+		<item name="android:background">@drawable/cancel_button</item>
+		<item name="android:text">@string/cancel</item>
+	</style>
+
+	<style name="DelayButton" parent="CustomButton">
+		<item name="android:background">@drawable/delay_button</item>
+		<item name="android:text">@string/delay</item>
+	</style>
+
+</resources>

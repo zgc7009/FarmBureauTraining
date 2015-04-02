@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Button Colors -->
+	<color name="button_text_color">#80FFFFFF</color>
+	<color name="reschedule_button">#AB1E57</color>
+	<color name="reschedule_button_pressed">#80AB1E57</color>
+	<color name="cancel_button">#EA1767</color>
+	<color name="cancel_button_pressed">#80EA1767</color>
+	<color name="delay_button">#514E4F</color>
+	<color name="delay_button_pressed">#80514E4F</color>
+
+	<!-- List -->
+	<color name="list_background">#efefef</color>
+	<color name="list_ts_color">#979798</color>
+
+	<!-- Login Colors -->
+	<color name="login_background_grey">#292627</color>
+	<color name="sb_pink">#f42171</color>
+	<color name="sb_pink_pressed">#80f42171</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="12">
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="8"
+		android:background="@color/login_background_grey"
+		android:scaleType="centerInside"
+		android:src="@drawable/ic_sb_logo_bw"/>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2">
+
+		<EditText
+			android:id="@+id/login_edittext"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:textAppearance="@android:style/TextAppearance.Medium"
+			android:hint="@string/enter_email"/>
+
+	</FrameLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2"
+		android:background="@color/sb_pink"/>
+
+</LinearLayout>

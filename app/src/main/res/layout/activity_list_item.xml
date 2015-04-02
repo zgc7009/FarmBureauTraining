@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:fb="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+	<FrameLayout
+		android:id="@+id/sb_logo_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/bottom_section_padding"
+			android:src="@drawable/ic_sb_logo_dark_grey"/>
+	</FrameLayout>
+
+
+	<ListView
+		android:id="@+id/list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/sb_logo_container"
+		android:background="@color/list_background"/>
+
+	<com.smashingboxes.fb_labs_app.views.CircleView
+		android:layout_width="44dp"
+		android:layout_height="44dp"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="-22dp"
+		android:layout_marginRight="@dimen/bottom_section_padding"
+		android:layout_below="@id/list"
+		fb:circleColor="@color/sb_pink"
+		fb:plusColor="@android:color/white"
+		fb:plusLength="10dp"
+		fb:plusStroke="2dp"/>
+
+</RelativeLayout>

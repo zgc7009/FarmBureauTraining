@@ -1,0 +1,16 @@
+<resources>
+	<string name="app_name">fb_labs_app</string>
+
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+
+	<!-- Button Strings -->
+	<string name="reschedule">reschedule</string>
+	<string name="cancel">cancel</string>
+	<string name="delay">delay</string>
+
+	<!-- Login -->
+	<string name="enter_email">Enter Email Address</string>
+	<string name="title_activity_login">LoginActivity</string>
+	<string name="title_activity_list_item">ListItemActivity</string>
+</resources>
